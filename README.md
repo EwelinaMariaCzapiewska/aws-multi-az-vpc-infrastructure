@@ -21,6 +21,6 @@ This project demonstrates the deployment of a secure, highly available networkin
 * **Multi-AZ Deployment:** Instances are deployed across two different Availability Zones. If one AZ experiences an outage, the application remains reachable through the instance in the second AZ.
 
 ## 🎯 Key Learnings
-* Understanding the difference between **Zonal** (Subnets, EC2) and **Regional** (VPC, IGW) services.
-* Implementing **Stateful** security controls using Security Groups.
-* Hands-on experience with **AWS Global Infrastructure** and fault-tolerant design.
+Understanding the difference between **Zonal** (Subnets, EC2) and **Regional** (VPC, IGW) services.
+Implementing **Stateful** security controls using Security Groups.
+Hands-on experience with **AWS Global Infrastructure** and fault-tolerant design.
