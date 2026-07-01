@@ -11,7 +11,7 @@ This project demonstrates the deployment of a secure, highly available networkin
 * **EC2:** Web servers hosting the application.
 * **Internet Gateway:** Provided connectivity between the VPC and the internet.
 * **Route Tables:** Configured to direct traffic from public subnets to the IGW.
- **Security Groups:** Acted as a virtual firewall for the EC2 instances.
+* **Security Groups:** Acted as a virtual firewall for the EC2 instances.
 
 ## 🔒 Security Features
 * **Principle of Least Privilege:** Security groups were configured to allow ONLY inbound HTTP traffic (Port 80). All other ports remain closed to minimize the attack surface.
