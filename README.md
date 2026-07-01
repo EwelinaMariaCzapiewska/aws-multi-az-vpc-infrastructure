@@ -12,6 +12,7 @@ This project demonstrates the deployment of a secure, highly available networkin
 * **Internet Gateway:** Provided connectivity between the VPC and the internet.
 * **Route Tables:** Configured to direct traffic from public subnets to the IGW.
 * **Security Groups:** Acted as a virtual firewall for the EC2 instances.
+* **Elastic Load Balancing:** Distributed incoming application traffic across multiple EC2 instances to ensure reliability.
 
 ## 🔒 Security Features
 * **Principle of Least Privilege:** Security groups were configured to allow ONLY inbound HTTP traffic (Port 80). All other ports remain closed to minimize the attack surface.
@@ -19,4 +20,5 @@ This project demonstrates the deployment of a secure, highly available networkin
 
 ## 🚀 High Availability (HA)
 * **Multi-AZ Deployment:** Instances are deployed across two different Availability Zones. If one AZ experiences an outage, the application remains reachable through the instance in the second AZ.
+* **Load Balancing:** An Application Load Balancer acts as a single point of contact for clients, providing a DNS name and performing health checks to ensure traffic is only routed to functional instances.
 
